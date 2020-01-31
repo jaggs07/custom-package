@@ -1,0 +1,10 @@
+.Input {
+  border: 2px solid lightblue;
+  outline: none;
+  padding: 20px;
+}
+
+.Input::placeholder {
+  color: lightgray;
+  opacity: 0.5;
+}

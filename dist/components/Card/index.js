@@ -11,14 +11,17 @@ require("./index.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function Card() {
+function Card(_ref) {
+  var title = _ref.title,
+      body = _ref.body,
+      footer = _ref.footer;
   return _react.default.createElement("div", {
     className: "Card"
   }, _react.default.createElement("div", {
-    className: "Card-Header"
-  }, "Card Title"), _react.default.createElement("div", {
+    className: "Card-header"
+  }, title), _react.default.createElement("div", {
     className: "Card-body"
-  }, "Card Body"), _react.default.createElement("div", {
+  }, body), _react.default.createElement("div", {
     className: "Card-footer"
-  }, "Card Footer"));
+  }, footer));
 }
