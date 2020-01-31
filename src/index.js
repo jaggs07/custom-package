@@ -1,3 +1,7 @@
 import Card from './components/Card'
+import TextBox from './components/TextBox'
 
-export default Card
+export {
+    TextBox,
+    Card
+} 
