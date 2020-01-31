@@ -1,0 +1,22 @@
+.Card {
+  padding: 10px;
+  max-width: 150px;
+  border: 1px solid grey;
+  border-radius: 1px;
+  font-size: 18px;
+  text-align: center;
+  background: lightblue;
+}
+
+.Card-header {
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+}
+
+.Card-body {
+  font-weight: 16px;
+  border-bottom: 1px solid grey;
+}
+
+
+
