@@ -7,6 +7,8 @@ exports.default = Card;
 
 var _react = _interopRequireDefault(require("react"));
 
+require("./index.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Card() {

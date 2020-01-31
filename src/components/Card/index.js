@@ -1,16 +1,16 @@
 import React from 'react'
 import './index.css'
 
-export default function Card () {
+export default function Card ({ title, body, footer }) {
   return <div className='Card'>
-   <div className='Card-Header'>
-      Card Title
+   <div className='Card-header'>
+      {title}
    </div>
    <div className='Card-body'>
-       Card Body
+       {body}
    </div>
    <div className='Card-footer'>
-       Card Footer
+       {footer}
    </div>
   </div>
 }
